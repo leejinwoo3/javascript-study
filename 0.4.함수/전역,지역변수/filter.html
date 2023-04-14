@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const words = ['spray', 'limit', 'elite', 'exuberant' , 'destruction', 'present'];
+
+        // var val = words.filter(function(element, index, array){
+        //     console.log(`값: ${element}, 인덱스: ${index}`);
+        //     console.log(`글자수 : ${element.length}`)
+            
+        //     //글자수가 6개 이상인 값만 return
+        //     // 6번 리턴
+        //     return element.length > 6;
+        // });
+
+        //es6
+
+        var val = words.filter(word=> word.length > 6);
+
+        //filter는 리턴된 값들을 모아서 배열로 만들어준다.
+        console.log(val);
+    </script>
+</body>
+</html>

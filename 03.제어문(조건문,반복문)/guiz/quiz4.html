@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         const long = prompt("키",0) ;
+    
+         if (long >= 150){ 
+            console.log('가능');
+         }else if (long < 150) { 
+            const isContinue = confirm(`함께 왓니?`)
+            if(isContinue == true ) { 
+                console.log('좋은 시간')
+            } else {
+                console.log('안대')
+            }
+         }
+        
+    </script>
+</body>
+</html>

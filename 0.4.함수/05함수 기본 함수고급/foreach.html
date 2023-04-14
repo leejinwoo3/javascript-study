@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const array1 = ['a', 'b', 'c'];
+
+        //함수호출
+        // var val = array1.forEach(function(element, index, array){
+        //     //elemnet : 배열의 값
+        //     //index : 배열의 인덱스
+        //     //arry : 배열 전체
+        //     console.log(`값: ${element}, 인덱스: ${index}`);
+        //     console.log(`값: ${array}`);
+            
+        // }) 
+
+        //es6
+        array1.forEach((element, index, array)=>{
+            console.log(`값: ${element}, 인덱스: ${index}`);
+        });
+        </script>
+
+
+</body>
+</html>

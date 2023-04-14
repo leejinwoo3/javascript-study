@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str = '1';
+        let num = 5.224021042104;
+        let m = Number('숫자로 변환할 수 없는');
+        
+        
+        console.log(Number(str));
+        console.log(num.toFixed(0));
+        console.log(Number.isNaN(m)); // is this NaN?
+        
+        const n = 10/0;
+        console.log(Number.isFinite(n)); // is this finite?
+        
+
+    </script>
+</body>
+</html>
